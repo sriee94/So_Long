@@ -1,34 +1,4 @@
-
-# Bonus (Linke
-		- ✅ Render the game with textures
-		- ✅ Handle player movement with arrow keys and WASD
-		- ✅ Implement collision detection
-		- ✅ Validate accessible paths with flood fill algorithm
-		- ✅ Display move counter on screen (bonus)
-		- ✅ Manage memory properly (no leaks)
-
-### 🎮 Game Rules
-
-		1. **Objective:** Collect all collectibles (C) then reach the exit (E)
-		2. **Movement:** Use arrow keys or WASD
-		3. **Walls:** Block player movement (1)
-		4. **Exit:** Only opens when all collectibles are gathered
-		5. **Counter:** Shows number of moves on screen
-
-		---
-
-## 🚀 Installation and Usage
-
-### Prerequisites
-- C compiler (cc)
-	- Make
-	- MiniLibX library
-	- X11 (Linux) or XQuartz (macOS)
-	- Unix-based system
-
-### Clone the repository
-	```bash
-	git clone https://github.com/you# 🎮 So_long
+# 🎮 So_long
 
 > *A 2D game where you collect items and escape through the exit*
 
@@ -53,7 +23,36 @@ Built and maintained by **sriee**.
 So_long is a small 2D game project where the player must **collect all items (C)** and **reach the exit (E)** while navigating through a map filled with walls. The project focuses on window management, event handling, and basic gameplay mechanics using the **MiniLibX graphics library**.
 
 ### 🎯 Goals
-- ✅ Parse and validate `rusername/so_long.git
+- ✅ Parse and validate `.ber` map files
+- ✅ Render the game with textures
+- ✅ Handle player movement with arrow keys and WASD
+- ✅ Implement collision detection
+- ✅ Validate accessible paths with flood fill algorithm
+- ✅ Display move counter on screen (bonus)
+- ✅ Manage memory properly (no leaks)
+
+### 🎮 Game Rules
+
+1. **Objective:** Collect all collectibles (C) then reach the exit (E)
+2. **Movement:** Use arrow keys or WASD
+3. **Walls:** Block player movement (1)
+4. **Exit:** Only opens when all collectibles are gathered
+5. **Counter:** Shows number of moves on screen
+
+---
+
+## 🚀 Installation and Usage
+
+### Prerequisites
+- C compiler (cc)
+- Make
+- MiniLibX library
+- X11 (Linux) or XQuartz (macOS)
+- Unix-based system
+
+### Clone the repository
+```bash
+git clone https://github.com/yourusername/so_long.git
 cd so_long
 ```
 
@@ -1617,4 +1616,4 @@ $(NAME): $(OBJS) $(LIBFT) $(LIBFTPRINTF) $(LIBGNL) $(LIBMLX)
 
 ---
 
-**⭐ Si vous trouvez cela utile, pensez à mettre une étoile !**list
+**⭐ Si vous trouvez cela utile, pensez à mettre une étoile !**
