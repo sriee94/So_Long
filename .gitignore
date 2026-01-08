@@ -1,0 +1,70 @@
+# ============================================================================ #
+#                              SO_LONG .gitignore                              #
+# ============================================================================ #
+
+# --------------------------------- Binaires --------------------------------- #
+so_long
+*.o
+*.a
+
+# -------------------------- Fichiers temporaires ---------------------------- #
+*.swp
+*.swo
+*~
+.DS_Store
+*.log
+test.txt
+output.txt
+test_check.txt
+traces.txt
+
+# --------------------------- Dossiers de build ------------------------------ #
+obj/
+*.dSYM/
+
+# -------------------------- Bibliothèques compilées ------------------------- #
+Libsriee/libsriee.a
+Libsriee/*.o
+minilibx-linux/libmlx.a
+minilibx-linux/libmlx_Linux.a
+minilibx-linux/*.o
+
+# ---------------------------- Testeurs externes ----------------------------- #
+Tester_so_long.sh
+maps_err/
+maps_valid/
+so_long_tester/
+*.test
+
+# ---------------------------- Fichiers de debug ----------------------------- #
+vgcore.*
+valgrind-out.txt
+*.core
+core
+core.*
+
+# ----------------------------- Scripts de test ------------------------------ #
+test_all.sh
+run_tests.sh
+
+# --------------------------- Fichiers de l'éditeur -------------------------- #
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ------------------------------- Backup files ------------------------------- #
+*.bak
+*.backup
+*_backup
+*.old
+
+# ---------------------------- Docker / XQuartz ------------------------------ #
+.Xauthority
+.xsession-errors
+
+# --------------------------------- Divers ----------------------------------- #
+a.out
+*.gch
+tags
+TAGS
