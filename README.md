@@ -52,8 +52,8 @@ So_long is a small 2D game project where the player must **collect all items (C)
 
 ### Clone the repository
 ```bash
-git clone https://github.com/yourusername/so_long.git
-cd so_long
+git clone git@github.com:sriee94/So_Long.git
+cd So_Long
 ```
 
 ### Compilation
@@ -843,9 +843,9 @@ $(NAME): $(OBJS) $(LIBFT) $(LIBFTPRINTF) $(LIBGNL) $(LIBMLX)
 ## 🔗 Related Projects
 
 - [push_swap](https://github.com/sriee94/push_swap) - Sorting algorithm with two stacks
-- [get_next_line](https://github.com/yourusername/get_next_line) - Line reading function
-- [ft_printf](https://github.com/yourusername/ft_printf) - Custom printf implementation
-- [libft](https://github.com/yourusername/libft) - Custom C library
+- [libsriee](https://github.com/sriee94/libsriee) - Custom C library
+- [get_next_line](https://github.com/sriee94/get_next_line) - Line reading function
+- [ft_printf](https://github.com/sriee94/ft_printf) - Custom printf implementation
 
 ---
 
@@ -891,8 +891,8 @@ So_long est un petit projet de jeu 2D où le joueur doit **collecter tous les ob
 
 ### Cloner le dépôt
 ```bash
-git clone https://github.com/votreusername/so_long.git
-cd so_long
+git clone git@github.com:sriee94/So_Long.git
+cd So_Long
 ```
 
 ### Compilation
@@ -1610,9 +1610,9 @@ $(NAME): $(OBJS) $(LIBFT) $(LIBFTPRINTF) $(LIBGNL) $(LIBMLX)
 ## 🔗 Projets Liés
 
 - [push_swap](https://github.com/sriee94/push_swap) - Algorithme de tri avec deux piles
-- [get_next_line](https://github.com/votreusername/get_next_line) - Fonction de lecture de ligne
-- [ft_printf](https://github.com/votreusername/ft_printf) - Implémentation personnalisée de printf
-- [libft](https://github.com/votreusername/libft) - Bibliothèque C personnalisée
+- [libsriee](https://github.com/sriee94/libsriee) - Bibliothèque C personnalisée
+- [get_next_line](https://github.com/sriee94/get_next_line) - Fonction de lecture de ligne
+- [ft_printf](https://github.com/sriee94/ft_printf) - Implémentation personnalisée de printf
 
 ---
 
